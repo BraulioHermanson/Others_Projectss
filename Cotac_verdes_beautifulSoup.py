@@ -19,7 +19,7 @@ for linha in linhas:
     preco = lista_textos[3]
     legumes.append((produto,nome, preco, data))
 
-produto = 'Batata no Atacado'
+produto = 'Batata - Atacado'
 link = 'https://www.noticiasagricolas.com.br/cotacoes/legumes/batata-ao-produtor-iea'
 requisicao = requests.get(link)
 site = BeautifulSoup(requisicao.text, "html.parser")
@@ -47,7 +47,7 @@ for linha in linhas:
     preco = lista_textos[3]
     legumes.append((produto,nome,preco,data))
 
-produto = 'Cebola no Atacado IEA'
+produto = 'Cebola - Atacado IEA'
 link = 'https://www.noticiasagricolas.com.br/cotacoes/legumes/cebola-no-atacado-iea'
 requisicao = requests.get(link)
 site = BeautifulSoup(requisicao.text, "html.parser")
@@ -61,7 +61,7 @@ for linha in linhas:
     preco = lista_textos[3]
     legumes.append((produto,nome,preco,data))
 
-produto = 'Cebola no Ceasa'
+produto = 'Cebola - Ceasa'
 link = 'https://www.noticiasagricolas.com.br/cotacoes/legumes/cebola-no-atacado'
 requisicao = requests.get(link)
 site = BeautifulSoup(requisicao.text, "html.parser")
@@ -75,7 +75,7 @@ for linha in linhas:
     preco = lista_textos[3]
     legumes.append((produto,nome,preco,data))
 
-produto = 'Alface-Ceasa'
+produto = 'Alface - Ceasa'
 link = 'https://www.noticiasagricolas.com.br/cotacoes/verduras/alface-ceasas'
 requisicao = requests.get(link)
 site = BeautifulSoup(requisicao.text, "html.parser")
@@ -89,7 +89,7 @@ for linha in linhas:
     preco = lista_textos[3]
     legumes.append((produto,nome,preco,data))
 
-produto = 'Brocolis-Ceasa'
+produto = 'Brocolis - Ceasa'
 link = 'https://www.noticiasagricolas.com.br/cotacoes/verduras/brocolos-ceasas'
 requisicao = requests.get(link)
 site = BeautifulSoup(requisicao.text, "html.parser")
@@ -103,7 +103,7 @@ for linha in linhas:
     preco = lista_textos[3]
     legumes.append((produto,nome,preco,data))
 
-produto= 'Couve-Ceasa'
+produto= 'Couve - Ceasa'
 link = 'https://www.noticiasagricolas.com.br/cotacoes/verduras/couve-ceasas'
 requisicao = requests.get(link)
 site = BeautifulSoup(requisicao.text, "html.parser")
@@ -117,7 +117,7 @@ for linha in linhas:
     preco = lista_textos[3]
     legumes.append((produto,nome,preco,data))
 
-produto= 'Repolho-Ceasa'
+produto= 'Repolho - Ceasa'
 link = 'https://www.noticiasagricolas.com.br/cotacoes/verduras/repolho-ceasas'
 requisicao = requests.get(link)
 site = BeautifulSoup(requisicao.text, "html.parser")
