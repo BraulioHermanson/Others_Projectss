@@ -73,6 +73,7 @@ def btn_clicked3():
 # parei em uma hora e 24 minutos
 
 window = Tk()
+window.title("Ferramenta de Estoques")
 
 window.geometry("711x646")
 window.configure(bg = "#ffffff")
@@ -86,7 +87,7 @@ canvas = Canvas(
     relief = "ridge")
 canvas.place(x = 0, y = 0)
 
-background_img = PhotoImage(file = r"background.png")
+background_img = PhotoImage(file = r"background1.png")
 background = canvas.create_image(
     355.5, 323.0,
     image=background_img)
